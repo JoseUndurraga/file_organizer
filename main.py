@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
     if not organize_path.exists():
         
-        raise FileNotFoundError("Directorio no encontrado")
+        raise FileNotFoundError("Directory not found")
 
     organize_generator = organize_path.iterdir()
 
