@@ -10,7 +10,7 @@ CLI Tool on python used for organization purposes on folders, clasification made
 
 ## Requirements
 
-- Python 3.8 or higher (standar library usage)
+- Python 3.8 or higher (standard library usage)
 
 ## License
 
