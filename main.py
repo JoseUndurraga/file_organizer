@@ -17,7 +17,7 @@ Images= [".jpg",".jpeg",".png",".webp",".heic",".svg",".ai",".eps",".gif",".tiff
 
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(description="Files Organizer")
+    parser = argparse.ArgumentParser(description="File Organizer")
 
     parser.add_argument("path_of_organize_folder", nargs = "?", default = default_folder)
 
