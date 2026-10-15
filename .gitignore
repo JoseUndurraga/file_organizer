@@ -1,0 +1,12 @@
+
+#Cache
+__pycache__/
+*.pyc
+
+# Folders
+Organize/*
+!Organize/.gitkeep
+Datasets/
+Docs/
+Images/
+Not Considered/
