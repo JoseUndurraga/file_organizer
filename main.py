@@ -49,6 +49,9 @@ if __name__ == "__main__":
     for path in organize_generator:
 
         if path.is_file():
+        
+            if path.name.startswith("."):
+                continue
 
             (name, extension) = os.path.splitext(path)
             extension = extension.lower()
